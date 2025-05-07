@@ -25,6 +25,10 @@
     trigger-period-ms = <16>;
 };
 
+// allow multiple taps when tap-hold  https://github.com/zmkfirmware/zmk/issues/288
+&mt { quick_tap_ms =<200>; };
+&lt { quick_tap_ms =<200>; };
+
 / {
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
