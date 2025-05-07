@@ -83,11 +83,11 @@
 
         layer_1 {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3                &kp F4                 &kp F5       &none  &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
-&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans       &none  &trans         &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp F12
-&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE    &none  &kp MINUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &trans
-&trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE    &none  &kp AMPERSAND  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
-&none   &trans  &trans  &trans                &trans                 &trans       &none  &trans         &trans        &kp N0        &kp PERIOD    &trans
+&trans  &kp F1         &kp F2          &kp F3                    &kp F4                 &kp F5       &none  &kp F6         &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
+&trans  &trans         &trans          &kp LEFT_BRACE            &kp RIGHT_BRACE        &trans       &none  &trans         &kp N7        &kp N8        &kp N9        &kp ASTERISK  &kp F12
+&trans  &trans         &trans          &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp GRAVE    &none  &kp MINUS      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &trans
+&trans  &trans         &trans          &kp LEFT_BRACKET          &kp RIGHT_BRACKET      &kp TILDE    &none  &kp AMPERSAND  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH     &trans
+&none   &kp LC(LG(Q))  &kp LG(LS(N5))  &kp LG(LS(LC(NUMBER_4)))  &trans                 &trans       &none  &trans         &trans        &kp N0        &kp PERIOD    &trans
             >;
 
             display-name = "layer1";
