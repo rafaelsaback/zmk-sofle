@@ -105,7 +105,7 @@ layers:
   - '6'
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
@@ -117,7 +117,7 @@ layers:
   - '2'
   - '3'
   - {t: /, s: '?'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+Gui+Q
   - {t: Gui+Sft+5, s: Gui+Sft+%}
